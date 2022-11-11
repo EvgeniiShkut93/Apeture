@@ -87,7 +87,7 @@ header .btns_header .btn {
     color: #000000;
     font-weight: 400;
     border: 1px solid #ffff;
-    padding: 9px 20px 13px 20px;
+    padding: 10px 20px;
 }
 
 header .btns_header .btn:hover {
@@ -145,7 +145,7 @@ header .btns_header .btn:hover {
     height: 80px; 
     text-align: center;        
 }
-
+ 
 .first_section_info_right {
     padding-top: 14px;
     display: flex;
@@ -165,4 +165,87 @@ header .btns_header .btn:hover {
 
 .first_info img {
     margin-right: 6px;
+}
+
+.second_section {
+    background-color: black;
+}
+
+.second_section h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 113px;
+    color: #FFFFFF;
+}
+
+.second_section h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    color: #C0C0C0;
+    margin-bottom: 42px;
+}
+
+.container {
+    padding: 0 136px;
+}
+
+.first_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url(/assets/images/first_img_section2.png);
+    background-repeat: no-repeat;
+    width: 576px;
+    height: 600px;
+    padding: 0 0 30px 30px;
+}
+
+.first_block h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    color: #FFFF;
+    width: 222px;
+    height: 40px;
+    text-transform: uppercase;
+    margin: 0;
+
+}
+
+.first_block h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    width: 501px;
+    height: 80px;
+    margin: 0;
+}
+
+.second_section_btn {
+    display: flex;
+    padding: 10px;
+    border-radius: 14px;
+    background-color: #fff;
+    width: 100px;
+}
+
+.circle {
+    background-color: #000;
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
