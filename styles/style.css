@@ -1,0 +1,94 @@
+html, body {
+    height: 100%;
+    
+}
+
+body {
+    position: relative;
+    
+}
+
+header .container {
+    max-width: 83%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 1200px;
+   
+}
+
+header {
+   margin: 0 auto;
+   max-width: 100%; 
+   display: flex;
+   align-items: center; 
+   padding-top: 30px;
+   padding-bottom: 30px;
+   justify-content: space-between;
+   background-color: black;
+   
+}
+
+header .logo {
+    max-width: 130px;
+    margin-left: 32px;
+}
+
+header .right_header {
+    display: flex;
+    align-items: center;
+
+}
+
+header .logo img {
+    max-width: 100%;
+}
+
+header .mnu_top {
+    list-style-type: none;
+}
+
+header .mnu_top li{
+    display: inline-block;
+    margin-right: 35px;
+
+}
+
+header .mnu_top li a {
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-decoration: none;
+    color: #FFFF;
+    font-size: 13px;
+    font-weight: 400;
+    transition: color .4s ease;
+}
+
+header .mnu_top li a:hover {
+    color: rgb(131, 156, 7);
+}
+
+header .btns_header {
+    display:flex;
+    align-items:center;
+    margin-right: 20px;
+}
+
+header .btns_header >a {
+    border-radius: 14px;
+    text-decoration: none;
+    transition: all .4s ease;
+    background-color: #FFFF;
+}
+
+header .btns_header .btn {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    border: 1px solid #ffff;
+    padding: 9px 20px 13px 20px;
+}
+
+header .btns_header .btn:hover {
+    background-color: #A2D5CE;
+}
