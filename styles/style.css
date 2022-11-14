@@ -198,6 +198,18 @@ header .btns_header .btn:hover {
     padding: 0 136px;
 }
 
+.cont_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_block_second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
 .first_block {
     display: flex;
     flex-direction: column;
@@ -216,7 +228,7 @@ header .btns_header .btn:hover {
     line-height: 20px;
     letter-spacing: 2px;
     color: #FFFF;
-    width: 222px;
+    width: 280px;
     height: 40px;
     text-transform: uppercase;
     margin: 0;
@@ -232,11 +244,14 @@ header .btns_header .btn:hover {
     width: 501px;
     height: 80px;
     margin: 0;
+    margin-bottom: 17px;
 }
 
 .second_section_btn {
     display: flex;
     padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 30px;
     border-radius: 14px;
     background-color: #fff;
     width: 100px;
