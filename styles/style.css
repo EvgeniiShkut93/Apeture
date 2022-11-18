@@ -1,12 +1,10 @@
 html, body {
-    height: 100%;
-    
+    height: 100%; 
 }
 
 body {
     position: relative;
     margin: 0 auto;
-    
 }
 
 header .container {
@@ -264,3 +262,119 @@ header .btns_header .btn:hover {
     height: 20px;
     margin-right: 10px;
 }
+
+.three_section {
+    height: 600px;
+    background-image: url(/assets/images/BG_three_section.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.block_info {
+    height:80px;
+    width: 298px;
+    padding-top: 260px;
+    padding-left: 1080px;
+}
+
+.block_info h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 206px;
+    height: 20px;
+    color: #FFFF;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.block_info h4 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    width: 298px;
+    height: 60px;
+    color: #C0C0C0;
+    margin: 0;
+}
+
+
+.first_section_info_right_2 {
+    padding-top: 204px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.first_info_sec {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFF;
+    margin-right: 16px;
+    margin-bottom: 40px;
+}
+
+.first_info_sec img {
+    margin-right: 6px;
+}
+
+.section-gear {
+    height: 540px;
+    display: flex;
+    justify-content: center;
+}
+
+.gear-container__left {
+    background: #000000;
+    height: 540px;
+    width: 720px;
+    z-index: -1;
+    padding-left: 100px;
+    padding-top: 136px;
+}
+
+.gear-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    width: 136px;
+    height: 20px;
+    color: #C0C0C0;
+    text-transform: uppercase;
+    margin: 0 484px 6px 0;
+}
+
+.gear-subtitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFF;
+    margin: 0 317px 14px 0;
+}
+
+.gear-description {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFF;
+    margin: 0 106px 20px 0;
+    width: 514px;
+}
+
+.button .circle_new {
+    background-color: #FFFFFF;
+    border-radius: 30%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
